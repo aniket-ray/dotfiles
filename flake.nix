@@ -107,6 +107,7 @@
             "yubico-authenticator"
             "visual-studio-code"
             "zoom"
+            "logitech-g-hub"
           ];
           onActivation = {
             cleanup = "zap";
