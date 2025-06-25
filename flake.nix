@@ -51,6 +51,7 @@
           tree
           wget
           direnv
+          uv
         ];
 
         # fonts
