@@ -50,6 +50,7 @@
           tmux
           tree
           wget
+          direnv
         ];
 
         # fonts
