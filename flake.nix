@@ -90,6 +90,7 @@
             "texlive"
           ];
           casks = [
+            "protonvpn"
             "firefox"
             "ghostty"
             "rectangle"
