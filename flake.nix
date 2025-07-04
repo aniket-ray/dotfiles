@@ -88,6 +88,7 @@
           enable = true;
           brews = [
             "texlive"
+            "virtualenv"
           ];
           casks = [
             "protonvpn"
