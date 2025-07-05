@@ -91,6 +91,7 @@
             "virtualenv"
           ];
           casks = [
+            "brave-browser"
             "protonvpn"
             "firefox"
             "ghostty"
