@@ -91,6 +91,8 @@
             "virtualenv"
           ];
           casks = [
+            "amazon-chime"
+            "cursor"
             "brave-browser"
             "protonvpn"
             "firefox"
