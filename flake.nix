@@ -39,6 +39,7 @@
 
         # system packages
         environment.systemPackages = with pkgs; [
+          pinentry_mac
           rustup
           docker
           oh-my-zsh

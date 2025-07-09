@@ -27,7 +27,7 @@
   # Enable GPG agent
   services.gpg-agent = {
     enable = true;
-    pinentry.package = pkgs.pinentry-gtk2;
+    pinentry.package = pkgs.pinentry_mac;
 
     defaultCacheTtl = 3600; # 1 hour
     defaultCacheTtlSsh = 3600; # 1 hour for SSH keys
