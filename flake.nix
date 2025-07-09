@@ -46,6 +46,7 @@
           neovim
           python313
           git
+          clang_20
           clang-tools
           htop
           tmux
@@ -59,7 +60,7 @@
         fonts.packages = [ pkgs.nerd-fonts.jetbrains-mono ];
 
         # macOS defaults
-        system.defaults = {          
+        system.defaults = {
           dock.autohide = false;
           dock.orientation = "left";
           dock.launchanim = false;
@@ -87,10 +88,7 @@
         # Homebrew
         homebrew = {
           enable = true;
-          brews = [
-            "texlive"
-            "virtualenv"
-          ];
+          brews = [ "texlive" "virtualenv" ];
           casks = [
             "amazon-chime"
             "cursor"
