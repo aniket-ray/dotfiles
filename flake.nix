@@ -90,6 +90,7 @@
           enable = true;
           brews = [ "texlive" "virtualenv" ];
           casks = [
+            "wacom-tablet"
             "pgadmin4"
             "amazon-chime"
             "cursor"
