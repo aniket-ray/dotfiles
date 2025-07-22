@@ -39,6 +39,7 @@
 
         # system packages
         environment.systemPackages = with pkgs; [
+          pandoc
           pinentry_mac
           rustup
           docker
