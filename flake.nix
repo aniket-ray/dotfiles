@@ -39,6 +39,7 @@
 
         # system packages
         environment.systemPackages = with pkgs; [
+          virtualenv
           awscli2
           pandoc
           pinentry_mac
@@ -90,7 +91,7 @@
         # Homebrew
         homebrew = {
           enable = true;
-          brews = [ "texlive" "virtualenv" ];
+          brews = [ "texlive" ];
           casks = [
             "wacom-tablet"
             "pgadmin4"
