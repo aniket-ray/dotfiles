@@ -39,6 +39,7 @@
 
         # system packages
         environment.systemPackages = with pkgs; [
+          terraform
           virtualenv
           awscli2
           pandoc
