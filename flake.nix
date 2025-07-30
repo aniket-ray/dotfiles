@@ -39,6 +39,7 @@
 
         # system packages
         environment.systemPackages = with pkgs; [
+          docker-compose
           terraform
           virtualenv
           awscli2
