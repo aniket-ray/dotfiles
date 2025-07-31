@@ -39,14 +39,12 @@
 
         # system packages
         environment.systemPackages = with pkgs; [
-          docker-compose
           terraform
           virtualenv
           awscli2
           pandoc
           pinentry_mac
           rustup
-          docker
           oh-my-zsh
           neovim
           python313
@@ -95,6 +93,7 @@
           enable = true;
           brews = [ "texlive" ];
           casks = [
+            "docker"
             "wacom-tablet"
             "pgadmin4"
             "amazon-chime"
@@ -139,7 +138,7 @@
         modules = [
           configuration
 
-          # nix-homebrew module + your brew taps
+          # nix-homebrew module + brew taps
           nix-homebrew.darwinModules.nix-homebrew
           {
             nix-homebrew.enable = true;
