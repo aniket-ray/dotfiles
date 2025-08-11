@@ -39,6 +39,11 @@
 
         # system packages
         environment.systemPackages = with pkgs; [
+          cmake
+          ninja
+          ccache
+          clang_20
+          clang-tools
           terraform
           virtualenv
           awscli2
@@ -49,8 +54,6 @@
           neovim
           python313
           git
-          clang_20
-          clang-tools
           htop
           tmux
           tree
